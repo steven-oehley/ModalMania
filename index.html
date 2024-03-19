@@ -5,26 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Modal window</title>
+    <title>Modal Mania</title>
   </head>
   <body>
-    <h1>Model Mania</h1>
+    <h1>Modal Mania</h1>
     <section class="modal-container">
-      <button class="show-modal">Show modal 1</button>
-      <button class="show-modal">Show modal 2</button>
-      <button class="show-modal">Show modal 3</button>
+      <button class="show-modal" data-id="1">About Me 📋</button>
+      <button class="show-modal" data-id="2">Work History 💼</button>
+      <button class="show-modal" data-id="3">
+        Journey into Development 🌱
+      </button>
     </section>
-    <div class="modal hidden">
+    <div class="modal modal-one hidden">
       <button class="close-modal">&times;</button>
-      <h2>I'm a modal window 😍</h2>
+      <h2>About Me 💬</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Hey there! I'm Steve, a passionate developer with a love for creating
+        innovative solutions. I enjoy exploring new technologies and turning
+        ideas into reality. When I'm not coding, you can find me learning about
+        FE dev or spending time with my lovely finace and daughter. Let's
+        connect and build something amazing together! 🚀
+      </p>
+    </div>
+
+    <div class="modal modal-two hidden">
+      <button class="close-modal">&times;</button>
+      <h2>Work History 💼</h2>
+      <p>
+        Over the years, I've had the privilege of working with diverse teams on
+        exciting projects. From developing robust web applications to optimizing
+        dataset analytics, I've gained valuable experience in various aspects of
+        software development and data analysis. I'm always eager to tackle new
+        challenges and contribute my skills to meaningful projects. Let's
+        collaborate and make a difference! 👨‍💻
+      </p>
+    </div>
+
+    <div class="modal modal-three hidden">
+      <button class="close-modal">&times;</button>
+      <h2>Journey into Development 🌱</h2>
+      <p>
+        My journey into development began with a curiosity for technology and a
+        desire to create. From my first line of code to mastering complex
+        algorithms, every step has been a learning experience. Along the way,
+        I've encountered obstacles and triumphs, each shaping me into the
+        developer I am today. I'm grateful for the opportunities that have led
+        me here, and I'm excited to continue growing and evolving in this
+        dynamic field. Let's embark on this journey together! 🌟
       </p>
     </div>
     <div class="overlay hidden"></div>

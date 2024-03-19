@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html {
@@ -37,7 +37,7 @@ body {
 
 h1 {
   font-size: 8rem;
-  margin-top: 6rem;
+  margin-top: 0;
   text-align: center;
   color: #fff;
   text-shadow: -1px 4px 2px rgba(0, 0, 0, 0.6);
@@ -96,11 +96,11 @@ p {
 }
 
 .overlay {
-  position: absolute;
+  position: fixed; /* Change to fixed positioning */
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100%; /* Set width to 100% */
+  height: 100%; /* Set height to 100% */
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
